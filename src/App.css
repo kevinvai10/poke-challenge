@@ -1,3 +1,7 @@
+body {
+  background-color: #e6e6e6;
+}
+
 .App h1, p {
   text-align: center;
 }

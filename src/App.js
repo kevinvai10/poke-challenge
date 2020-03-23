@@ -4,7 +4,7 @@ import { PokemonContainer } from './views/pokemonContainer/PokemonContainer'
 
 function App() {
   return ( 
-    <PokemonContainer />
+      <PokemonContainer />
   );
 }
 
