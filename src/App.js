@@ -3,8 +3,8 @@ import './App.css';
 import { PokemonContainer } from './views/pokemonContainer/PokemonContainer'
 
 function App() {
-  return ( <
-    PokemonContainer / >
+  return ( 
+    <PokemonContainer />
   );
 }
 

@@ -24,7 +24,7 @@ const PokemonForm = ({handleCatchPokemon}) => {
                     type='text'
                     value={text}
                     required={true}
-                    placeholder='Type a pokemon name to catch'
+                    placeholder='Type pokemon name'
                     onChange={e => setText(e.target.value)}/>
                 <button type='submit'><img src={imgUrl} alt="pokeball" height={'30px'}/></button>
             </form>

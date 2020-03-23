@@ -4,7 +4,7 @@ import PokemonCard from '../../components/pokemonCard/PokemonCard';
 import {getPokemonByName} from '../../api/service';
 
 import './PokemonContainer.scss'
- 
+
 export const PokemonContainer = () => {
     const [pokemonList, setPokemonList] = useState([])
 
@@ -23,7 +23,9 @@ export const PokemonContainer = () => {
     }
 
     return (
-        <div>
+        <div className='Container'>
+            <h1>Pokedex</h1>
+            <h5>Pokedex app, type name in the box and add all your favorite pokemons. Powered by ReactJS</h5>
             <PokemonForm handleCatchPokemon={catchPokemon}/>
             <div className='pokemon-container'>
                 {pokemonList.length > 0

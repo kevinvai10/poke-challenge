@@ -1,24 +1,63 @@
-.Pokecard {
-  background-color: whitesmoke;
-  margin: 20px;
-  padding: 20px;
-  width: 200px;
-  border-radius: 25px;
-  transition: all 0.3s ease;
-  box-shadow: 5px 5px 6px 3px grey;
-  text-align: center;
-
-  h1 {
-    color: rgb(65, 131, 185);
-    font-size: 24px;
+.Container {
+  h1, h5 {
+    text-align: center;
   }
 
-  p {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  .Pokecard {
+    // background-color: whitesmoke; deprecated for dynamic background
+    margin: 20px;
+    padding: 25px;
+    width: 200px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 5px 5px 6px 3px grey;
+    text-align: center;
+  
+    h1 {
+      // color: rgb(65, 131, 185);
+      color: white;
+      font-size: 24px;
+      text-transform: capitalize;
+    }
+  
+    p {
+      color: white;
+      text-transform: capitalize;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  
+    strong {
+      color: white;
+      text-transform: capitalize;
+    }
+  
+    .Description {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      margin-bottom: 7px;
+      text-transform: capitalize;
+  
+      p {
+        color: black;
+        margin: 10px;
+        display: block;
+        margin-left: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-  &:hover {
-    padding: 30px;
+      h4 {
+        margin-bottom: 15px;
+      }
+  
+      .Sprite {
+        align-self: center;
+      }
+  
+    }
+  
+    &:hover {
+      padding: 28px;
+    }
   }
 }

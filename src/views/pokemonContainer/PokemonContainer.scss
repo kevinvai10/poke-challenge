@@ -1,5 +1,6 @@
 .pokemon-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 0fr);
   align-items: center;
   justify-content: center;
   margin-top: 15px;
