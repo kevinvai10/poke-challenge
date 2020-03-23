@@ -1,0 +1,10 @@
+.pokemon-form{
+  button {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.pokemon-input {
+  padding: 8px;
+}
