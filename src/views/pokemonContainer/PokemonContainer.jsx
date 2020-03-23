@@ -4,7 +4,7 @@ import PokemonCard from '../../components/pokemonCard/PokemonCard';
 import {getPokemonByName} from '../../api/service';
 
 import './PokemonContainer.scss'
-
+ 
 export const PokemonContainer = () => {
     const [pokemonList, setPokemonList] = useState([])
 
